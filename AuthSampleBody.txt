@@ -1,0 +1,38 @@
+school register =>
+{
+  "email": "milestoneuttara.dhaka@gmail.com",
+  "password": "Password@123",
+  "schoolName": "Milestone School and College",
+  "schoolCode": "2291216444",
+  "phoneNumber": "01918638638",
+  "address": "Uttara Sector 11",
+  "schoolDescription": "Yet to update",
+  "typeOfInstitution": 0,
+  "curriculumType": 0
+}
+
+teacher register =>
+{
+  "email": "Abtahee.ador@northsouth.edu",
+  "fullname": "Abtahee Farhan Ador",
+  "address": "Bashundhara R/A block C Road 5 House 5",
+  "phoneNumber": "01918638638",
+  "bio": "Yet to update",
+  "password": "Password@123"
+}
+
+teacher edit =>
+{
+  "email": "EditEmail@gmail.com",
+  "fullname": "Lionel Andress Messi",
+  "address": "Paris, France",
+  "phoneNumber": "01918638630",
+  "bio": "Vamos Argentina",
+  "password": "EmptyPass@123"
+}
+
+login =>
+{
+  "username": "milestoneuttara.dhaka@gmail.com",
+  "password": "Password@123"
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="SchoolPortal.js"></script>
+    <script type="text/javascript" src="Auth.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container pt-5">
+        <button onClick="test()" class="btn btn-danger">GET</button>
+     </div>
+</body>
+
+<script>
+    async function test(){
+        const res= await login('rajukuttara19.dhaka@gmail.com','Password@123');
+        console.log(res.data)
+    }
+</script>
+</html>
