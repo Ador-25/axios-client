@@ -18,8 +18,25 @@
 
 <script>
     async function test(){
-        const res= await login('rajukuttara19.dhaka@gmail.com','Password@123');
-        console.log(res.data)
+        try{
+            const res= await registerSchool(
+            'milestoneuttara1131.dhaka@gmail.com',
+            'Password@123',
+            'Milestone School & College',
+            '2291216445',
+            '01977277387',
+            'Uttara,Sector - 11, Dhaka',
+            'Yet to update',
+            0,
+            1
+            );
+            console.log(res.data)
+        }
+        catch(err){
+            console.log(err)
+        }
+
+
     }
 </script>
 </html>
