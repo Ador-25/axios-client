@@ -2,7 +2,7 @@ const prefix ='https://localhost:7209/api/'
 function prefixBuilder(suffix){
     return prefix+suffix+'/'
 }
-const token = new WebToken().getToken();
+const token = new TokenProvider('web').getToken()
 
 
 
